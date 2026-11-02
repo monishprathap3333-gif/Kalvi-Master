@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Kalvi Master — Tamil Nadu Class 10 Samacheer Kalvi study resources, revision materials and practice quizzes.">
+<meta name="theme-color" content="#123b70">
+<title>Kalvi Master | Class 10 Learning Portal</title>
+<style>
+:root{--navy:#123b70;--blue:#2167b2;--sky:#eaf3ff;--ink:#17263c;--muted:#63738a;--line:#e2eaf3;--paper:#f6f9fd;--white:#fff;--gold:#f2b84b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}
+a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+header{background:var(--navy);color:white;position:sticky;top:0;z-index:10;box-shadow:0 4px 18px #09264a33}
+.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-weight:850;letter-spacing:.4px}.logo{width:42px;height:42px;border-radius:12px;background:white;color:var(--navy);display:grid;place-items:center;font-size:25px;font-weight:900}
+.brand small{display:block;font-size:11px;color:#c9dcf6;font-weight:500;letter-spacing:0}
+nav{display:flex;gap:20px;align-items:center}nav a{text-decoration:none;color:#e8f1ff;font-size:14px}nav a:hover{text-decoration:underline}
+.menu{display:none;background:transparent;border:1px solid #ffffff66;color:white;border-radius:9px;padding:8px 11px;font-size:20px}
+.hero{background:linear-gradient(120deg,#123b70,#2167b2);color:white;padding:58px 0 48px}
+.hero-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:28px;align-items:center}
+.eyebrow{color:#c9e0ff;text-transform:uppercase;font-weight:750;font-size:12px;letter-spacing:1.5px}
+h1{font-size:clamp(34px,5vw,54px);line-height:1.08;margin:12px 0}
+.hero p{color:#e2edfc;max-width:620px;margin:0 0 22px}
+.search{display:flex;gap:8px;background:white;padding:7px;border-radius:13px;max-width:620px}
+.search input{border:0;outline:0;flex:1;min-width:0;padding:10px 12px;font:inherit;color:var(--ink)}
+.search button,.primary{border:0;background:var(--gold);color:#2b2b2b;font-weight:800;padding:11px 17px;border-radius:9px;cursor:pointer}
+.hero-note{background:#ffffff15;border:1px solid #ffffff35;border-radius:18px;padding:22px}
+.hero-note strong{font-size:18px}.hero-note ul{padding-left:19px;color:#e4efff;margin-bottom:0}
+section{padding:42px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:20px}
+h2{font-size:26px;margin:0;color:var(--navy)}.sub{color:var(--muted);margin:5px 0 0;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.subject,.resource,.panel{background:var(--white);border:1px solid var(--line);border-radius:15px;padding:19px;box-shadow:0 5px 18px #163b6510}
+.subject{cursor:pointer;text-align:left;font:inherit;transition:.15s}.subject:hover,.subject.active{border-color:#76a9e5;transform:translateY(-2px);background:#f1f7ff}
+.subject .ico{font-size:25px}.subject strong{display:block;margin:7px 0 2px;color:var(--navy)}.subject span:last-child{font-size:13px;color:var(--muted)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}.filter{border:1px solid var(--line);background:white;border-radius:999px;padding:8px 14px;color:var(--muted);cursor:pointer}.filter.active{background:var(--navy);border-color:var(--navy);color:white}
+.resources{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.resource{display:flex;flex-direction:column;gap:8px}.tag{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.7px;color:var(--blue)}
+.resource h3{margin:0;font-size:17px;color:var(--navy)}.resource p{margin:0;color:var(--muted);font-size:13px;flex:1}
+.resource a{display:inline-block;margin-top:6px;text-decoration:none;color:var(--blue);font-weight:750;font-size:14px}
+.empty{display:none;padding:25px;text-align:center;color:var(--muted);background:white;border:1px dashed #b9c9dc;border-radius:14px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.panel h3{margin:0 0 7px;color:var(--navy)}.panel p{margin:0;color:var(--muted);font-size:14px}
+.notice{background:#fff8e8;border:1px solid #f1d79c;border-radius:13px;padding:15px;color:#624a1d;font-size:13px}
+footer{background:#0c2d54;color:#dce9f8;padding:28px 0;margin-top:25px}footer p{margin:5px 0;color:#b9cce3;font-size:13px}
+@media(max-width:760px){.hero-grid{grid-template-columns:1fr}.hero-note{display:none}.grid,.resources{grid-template-columns:repeat(2,1fr)}nav{display:none;position:absolute;top:72px;left:0;right:0;background:var(--navy);padding:16px 4%;flex-direction:column;align-items:flex-start}.nav.open nav{display:flex}.menu{display:block}}
+@media(max-width:480px){.grid,.resources,.two{grid-template-columns:1fr}.hero{padding:42px 0}.search button{padding:10px}.section-head{display:block}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav" id="nav">
+<a class="brand" href="#"><span class="logo">K</span><span>KALVI MASTER<small>Tamil Nadu Learning Portal</small></span></a>
+<nav aria-label="Main navigation"><a href="#subjects">Subjects</a><a href="#resources">Study Materials</a><a href="#practice">Practice</a><a href="#about">About</a></nav>
+<button class="menu" id="menu" aria-label="Open menu">☰</button>
+</div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+<div><div class="eyebrow">Class 10 · Tamil Nadu Samacheer Kalvi</div><h1>Learn better.<br>Score with confidence.</h1>
+<p>Find subject-wise revision notes, practice resources and exam preparation support — in Tamil and English.</p>
+<form class="search" id="searchForm"><input id="searchInput" type="search" placeholder="Search subjects or study materials..." aria-label="Search resources"><button type="submit">Search</button></form>
+</div>
+<aside class="hero-note"><strong>உங்கள் கல்விப் பயணத்திற்கு வரவேற்கிறோம்!</strong><ul><li>Subject-wise learning</li><li>Revision and practice</li><li>Tamil + English support</li></ul></aside>
+</div></section>
+<section id="subjects"><div class="wrap"><div class="section-head"><div><h2>Explore Subjects</h2><p class="sub">Choose a subject to find its learning resources.</p></div></div>
+<div class="grid" id="subjectGrid">
+<button class="subject" data-subject="Tamil"><span class="ico">📘</span><strong>Tamil</strong><span>பாடங்கள் மற்றும் இலக்கணம்</span></button>
+<button class="subject" data-subject="English"><span class="ico">📗</span><strong>English</strong><span>Grammar and literature</span></button>
+<button class="subject" data-subject="Mathematics"><span class="ico">📐</span><strong>Mathematics</strong><span>Formulas and worked examples</span></button>
+<button class="subject" data-subject="Science"><span class="ico">🔬</span><strong>Science</strong><span>Physics, Chemistry and Biology</span></button>
+<button class="subject" data-subject="Social Science"><span class="ico">🌍</span><strong>Social Science</strong><span>History, Geography, Civics and Economics</span></button>
+<button class="subject" data-subject="Question Papers"><span class="ico">📝</span><strong>Question Papers</strong><span>Practice and revision papers</span></button>
+</div></div></section>
+<section id="resources"><div class="wrap"><div class="section-head"><div><h2>Study Materials</h2><p class="sub">Starter resource categories. Add your verified materials as you publish them.</p></div></div>
+<div class="filters" id="filters"><button class="filter active" data-filter="All">All</button><button class="filter" data-filter="Tamil">Tamil</button><button class="filter" data-filter="English">English</button><button class="filter" data-filter="Mathematics">Mathematics</button><button class="filter" data-filter="Science">Science</button><button class="filter" data-filter="Social Science">Social Science</button><button class="filter" data-filter="Question Papers">Question Papers</button></div>
+<div class="resources" id="resourceGrid">
+<article class="resource" data-category="Mathematics"><span class="tag">Mathematics</span><h3>Formula Revision Sheets</h3><p>Organise important chapter formulas with clear explanations and examples.</p><a href="#about">Coming soon →</a></article>
+<article class="resource" data-category="Science"><span class="tag">Science</span><h3>Chapter Revision Notes</h3><p>Build concise notes for Physics, Chemistry and Biology chapters.</p><a href="#about">Coming soon →</a></article>
+<article class="resource" data-category="Social Science"><span class="tag">Social Science</span><h3>Quick Revision Guides</h3><p>Prepare chapter summaries, timelines, maps and key terms.</p><a href="#about">Coming soon →</a></article>
+<article class="resource" data-category="Tamil"><span class="tag">Tamil</span><h3>Tamil Learning Resources</h3><p>Prepare original lesson explanations, grammar notes and practice.</p><a href="#about">Coming soon →</a></article>
+<article class="resource" data-category="English"><span class="tag">English</span><h3>Grammar Practice</h3><p>Practise grammar concepts, writing formats and vocabulary.</p><a href="#about">Coming soon →</a></article>
+<article class="resource" data-category="Question Papers"><span class="tag">Question Papers</span><h3>Model Test Papers</h3><p>Add original mock tests and authorised or openly shared papers.</p><a href="#about">Coming soon →</a></article>
+</div><div class="empty" id="empty">No matching resources yet. Try another subject.</div>
+</div></section>
+<section id="practice"><div class="wrap"><div class="section-head"><div><h2>Practice Zone</h2><p class="sub">A place for revision and self-assessment.</p></div></div>
+<div class="two"><div class="panel"><h3>Chapter-wise quizzes</h3><p>Short multiple-choice quizzes with answers and explanations can be added here.</p></div><div class="panel"><h3>Exam preparation</h3><p>Use revision schedules, mock tests and progress checklists to prepare steadily.</p></div></div></div></section>
+<section id="about"><div class="wrap"><div class="section-head"><div><h2>About Kalvi Master</h2><p class="sub">A student-focused learning resource project.</p></div></div>
+<div class="notice"><strong>Important:</strong> This is the first website template. The sample resource cards are placeholders, not downloadable study files. We will add accurate, original content and check every external resource before publishing. Do not upload copyrighted guidebooks or paid materials without permission.</div>
+</div></section>
+</main>
+<footer><div class="wrap"><strong>KALVI MASTER</strong><p>தமிழால் கற்போம் • அறிவால் வளர்வோம்</p><p>Independent educational resource project · Class 10 · Tamil Nadu</p><p>Content is for learning support. Always check the latest official syllabus and school instructions.</p></div></footer>
+<script>
+const nav=document.getElementById('nav');
+document.getElementById('menu').addEventListener('click',()=>nav.classList.toggle('open'));
+document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+let active='All', query='';
+const cards=[...document.querySelectorAll('.resource')], empty=document.getElementById('empty');
+function update(){let shown=0;cards.forEach(card=>{const okCat=active==='All'||card.dataset.category===active;const okText=card.innerText.toLowerCase().includes(query);card.style.display=okCat&&okText?'flex':'none';if(okCat&&okText)shown++;});empty.style.display=shown?'none':'block';}
+document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));btn.classList.add('active');active=btn.dataset.filter;document.querySelectorAll('.subject').forEach(s=>s.classList.toggle('active',s.dataset.subject===active));update();}));
+document.querySelectorAll('.subject').forEach(btn=>btn.addEventListener('click',()=>{active=btn.dataset.subject;document.querySelectorAll('.filter').forEach(b=>b.classList.toggle('active',b.dataset.filter===active));document.querySelectorAll('.subject').forEach(s=>s.classList.toggle('active',s===btn));document.getElementById('resources').scrollIntoView({behavior:'smooth'});update();}));
+document.getElementById('searchForm').addEventListener('submit',e=>{e.preventDefault();query=document.getElementById('searchInput').value.trim().toLowerCase();active='All';document.querySelectorAll('.filter').forEach(b=>b.classList.toggle('active',b.dataset.filter==='All'));document.querySelectorAll('.subject').forEach(s=>s.classList.remove('active'));document.getElementById('resources').scrollIntoView({behavior:'smooth'});update();});
+</script>
+</body></html>
