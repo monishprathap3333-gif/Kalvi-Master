@@ -98,4 +98,16 @@ document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',(
 document.querySelectorAll('.subject').forEach(btn=>btn.addEventListener('click',()=>{active=btn.dataset.subject;document.querySelectorAll('.filter').forEach(b=>b.classList.toggle('active',b.dataset.filter===active));document.querySelectorAll('.subject').forEach(s=>s.classList.toggle('active',s===btn));document.getElementById('resources').scrollIntoView({behavior:'smooth'});update();}));
 document.getElementById('searchForm').addEventListener('submit',e=>{e.preventDefault();query=document.getElementById('searchInput').value.trim().toLowerCase();active='All';document.querySelectorAll('.filter').forEach(b=>b.classList.toggle('active',b.dataset.filter==='All'));document.querySelectorAll('.subject').forEach(s=>s.classList.remove('active'));document.getElementById('resources').scrollIntoView({behavior:'smooth'});update();});
 </script>
-</body></html>
+<a href="tamil.html" style="
+position:fixed;
+bottom:20px;
+right:20px;
+background:#123b70;
+color:white;
+padding:14px 22px;
+border-radius:12px;
+text-decoration:none;
+font-weight:bold;
+z-index:9999;">
+தமிழ் | Tamil
+</a></body></html>
